@@ -40,7 +40,7 @@ function criteriaSelected() {
       userSelection,
     };
   };
-  confirm("Please ensure at least one character type is selected");
+  alert("Please ensure at least one character type is selected");
   return criteriaSelected();
 };
 
